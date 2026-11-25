@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+
+# Generated datasets
+data/
+
+# Generated pipeline and AI reports
+reports/
+
+# Trained machine learning models
+models/
+*.joblib
+*.pkl
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
